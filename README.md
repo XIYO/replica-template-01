@@ -104,6 +104,27 @@ bun dev        # http://localhost:5173
 | `bun run build` | 프로덕션 빌드 |
 | `bun run preview` | 빌드 미리보기 |
 
+## SEO 설정
+
+배포 시 자동으로 SEO 관련 파일이 생성되고 Google에 등록됩니다.
+
+### 자동 생성 파일
+
+| 파일 | 설명 |
+|------|------|
+| `robots.txt` | `SITE_SUBDOMAIN` 변수로 동적 생성 |
+| `sitemap.xml` | VitePress가 자동 생성 |
+
+### Google Search Console 연동
+
+배포 시 GitHub Actions가 자동으로 sitemap을 Google Search Console에 제출합니다.
+
+- **인증 방식**: GCP Workload Identity Federation (키 없음)
+- **대상 도메인**: `sc-domain:xiyo.dev` (모든 서브도메인 포함)
+- **제출 sitemap**: `https://{subdomain}.xiyo.dev/sitemap.xml`
+
+별도 설정 없이 `SITE_SUBDOMAIN` 변수만 설정하면 자동으로 Google에 등록됩니다.
+
 ## 참고
 
 - [VitePress Docs](https://vitepress.dev/)
