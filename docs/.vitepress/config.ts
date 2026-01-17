@@ -31,15 +31,19 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '가이드',
+        text: 'IT 트렌드',
         items: [
-          { text: '시작하기', link: '/guides/getting-started' }
+          { text: 'AI 혁명', link: '/trends/ai-revolution' },
+          { text: '클라우드 네이티브', link: '/trends/cloud-native' },
+          { text: '로우코드/노코드', link: '/trends/low-code' }
         ]
       },
       {
-        text: '레퍼런스',
+        text: '개발 이야기',
         items: [
-          { text: 'API', link: '/reference/api' }
+          { text: '모던 프론트엔드', link: '/development/modern-frontend' },
+          { text: '백엔드 트렌드', link: '/development/backend-trends' },
+          { text: 'DevOps 문화', link: '/development/devops-culture' }
         ]
       }
     ]
