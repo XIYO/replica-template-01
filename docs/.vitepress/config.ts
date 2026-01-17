@@ -30,22 +30,40 @@ export default defineConfig({
     ],
 
     sidebar: [
-      {
-        text: 'IT 트렌드',
-        items: [
-          { text: 'AI 혁명', link: '/trends/ai-revolution' },
-          { text: '클라우드 네이티브', link: '/trends/cloud-native' },
-          { text: '로우코드/노코드', link: '/trends/low-code' }
-        ]
-      },
-      {
-        text: '개발 이야기',
-        items: [
-          { text: '모던 프론트엔드', link: '/development/modern-frontend' },
-          { text: '백엔드 트렌드', link: '/development/backend-trends' },
-          { text: 'DevOps 문화', link: '/development/devops-culture' }
-        ]
-      }
+          {
+                "text": "개요",
+                "items": [
+                      {
+                            "text": "인공지능이란 무엇인가?",
+                            "link": "/overview/what-is-ai"
+                      },
+                      {
+                            "text": "인공지능의 사회적 영향",
+                            "link": "/overview/ai-impact"
+                      },
+                      {
+                            "text": "인공지능의 미래 동향",
+                            "link": "/overview/future-trends"
+                      }
+                ]
+          },
+          {
+                "text": "응용 분야",
+                "items": [
+                      {
+                            "text": "인공지능과 헬스케어",
+                            "link": "/applications/ai-healthcare"
+                      },
+                      {
+                            "text": "인공지능과 금융",
+                            "link": "/applications/ai-finance"
+                      },
+                      {
+                            "text": "인공지능과 제조업",
+                            "link": "/applications/ai-manufacturing"
+                      }
+                ]
+          }
     ]
   }
 })

@@ -1,8 +1,8 @@
 {
   "subdomain": "replica-template-01",
-  "title": "요즘 IT 이야기",
-  "description": "빠르게 변화하는 IT 세계의 최신 트렌드와 개발 이야기",
-  "accentColor": "#3b82f6",
+  "title": "인공지능의 현주소",
+  "description": "인공지능의 현재 기술 수준과 사회적 영향, 그리고 미래 전망에 대한 정보를 제공합니다.",
+  "accentColor": "#8b5cf6",
   "locale": "ko-KR",
   "lastUpdated": true,
   "githubRepo": "XIYO/replica-template-01"

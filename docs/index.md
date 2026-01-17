@@ -2,28 +2,20 @@
 layout: home
 
 hero:
-  name: "요즘 IT 이야기"
-  text: "최신 트렌드와 개발 문화"
-  tagline: "AI, 클라우드, 그리고 현대 개발 문화까지 - IT 업계의 핫한 이야기를 만나보세요"
+  name: "인공지능의 현주소"
+  text: "인공지능 기술의 현재와 미래를 조망하다."
+  tagline: "이 사이트는 인공지능의 현재 기술 수준과 사회적 영향, 그리고 미래 전망에 대한 정보를 제공합니다. 다양한 응용 분야를 통해 인공지능의 가능성을 탐색하고, 관련 지식을 습득할 수 있습니다. 인공지능에 대한 이해를 높이고, 미래 사회를 준비하는 데 도움이 될 것입니다."
   actions:
     - theme: brand
       text: 시작하기
-      link: /trends/ai-revolution
+      link: /overview/what-is-ai
     - theme: alt
       text: GitHub
       link: https://github.com/XIYO/replica-template-01
 
 features:
-  - icon: 🚀
-    title: IT 트렌드
-    details: AI 혁명, 클라우드 네이티브, 로우코드까지 - 지금 가장 핫한 기술 트렌드를 알아봅니다.
-  - icon: 💻
-    title: 개발 이야기
-    details: 프론트엔드부터 백엔드, DevOps까지 - 현대 개발자가 알아야 할 모든 것을 다룹니다.
-  - icon: ⭐
-    title: 실무 인사이트
-    details: 이론만이 아닌 실제 현장에서 겪는 경험과 노하우를 공유합니다.
-  - icon: ❤️
-    title: 커리어 팁
-    details: 개발자로서 성장하기 위한 커리어 조언과 학습 방법을 제안합니다.
+  - title: 개요
+    details: 인공지능이란 무엇인가?, 인공지능의 사회적 영향, 인공지능의 미래 동향
+  - title: 응용 분야
+    details: 인공지능과 헬스케어, 인공지능과 금융, 인공지능과 제조업
 ---
