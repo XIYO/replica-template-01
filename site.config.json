@@ -1,0 +1,9 @@
+{
+  "subdomain": "replica-template-01",
+  "title": "Replica Template",
+  "description": "VitePress 기반 문서 사이트",
+  "accentColor": "#3b82f6",
+  "locale": "ko-KR",
+  "lastUpdated": true,
+  "githubRepo": "XIYO/replica-template-01"
+}
