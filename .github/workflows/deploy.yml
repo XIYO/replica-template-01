@@ -37,6 +37,15 @@ jobs:
 
       - run: bun run build
 
+      - name: Generate robots.txt
+        run: |
+          cat > docs/.vitepress/dist/robots.txt << EOF
+          User-agent: *
+          Allow: /
+
+          Sitemap: https://${{ vars.SITE_SUBDOMAIN }}.xiyo.dev/sitemap.xml
+          EOF
+
       - name: Ensure DNS record exists
         run: |
           SUBDOMAIN="${{ vars.SITE_SUBDOMAIN }}"
@@ -66,4 +75,10 @@ jobs:
           CLOUDFLARE_API_KEY: ${{ secrets.CLOUDFLARE_API_KEY }}
           CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Submit sitemap to Google
+        if: success()
+        uses: XIYO/replica-builder/actions/submit-sitemap@main
+        with:
+          site-url: https://${{ vars.SITE_SUBDOMAIN }}.xiyo.dev
 
