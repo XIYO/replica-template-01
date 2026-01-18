@@ -81,14 +81,3 @@ jobs:
         uses: XIYO/replica-builder/actions/submit-sitemap@main
         with:
           site-url: https://${{ vars.SITE_SUBDOMAIN }}.xiyo.dev
-
-      - name: Capture site screenshot
-        if: success()
-        uses: XIYO/replica-builder/actions/capture-screenshot@main
-        with:
-          site-url: https://${{ vars.SITE_SUBDOMAIN }}.xiyo.dev
-          subdomain: ${{ vars.SITE_SUBDOMAIN }}
-          r2-bucket-name: site-screenshots
-          cloudflare-account-id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          cloudflare-r2-token: ${{ secrets.CLOUDFLARE_R2_TOKEN }}
-
