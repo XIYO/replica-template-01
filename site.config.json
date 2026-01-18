@@ -1,8 +1,8 @@
 {
   "subdomain": "replica-template-01",
-  "title": "인공지능의 현주소",
-  "description": "인공지능의 현재 기술 수준과 사회적 영향, 그리고 미래 전망에 대한 정보를 제공합니다.",
-  "accentColor": "#8b5cf6",
+  "title": "AI Agent의 전망과 미래",
+  "description": "AI 에이전트의 핵심 기술, 활용 분야, 그리고 미래 전망을 심층적으로 분석합니다.",
+  "accentColor": "#6366f1",
   "locale": "ko-KR",
   "lastUpdated": true,
   "githubRepo": "XIYO/replica-template-01"

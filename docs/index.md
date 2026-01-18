@@ -1,21 +1,18 @@
 ---
 layout: home
-
 hero:
-  name: "인공지능의 현주소"
-  text: "인공지능 기술의 현재와 미래를 조망하다."
-  tagline: "이 사이트는 인공지능의 현재 기술 수준과 사회적 영향, 그리고 미래 전망에 대한 정보를 제공합니다. 다양한 응용 분야를 통해 인공지능의 가능성을 탐색하고, 관련 지식을 습득할 수 있습니다. 인공지능에 대한 이해를 높이고, 미래 사회를 준비하는 데 도움이 될 것입니다."
+  name: "AI Agent의 전망과 미래"
+  text: "자율적으로 사고하고 행동하는 AI의 시대"
+  tagline: "AI 에이전트의 핵심 기술, 활용 분야, 그리고 미래 전망을 심층적으로 분석합니다."
   actions:
     - theme: brand
       text: 시작하기
-      link: /overview/what-is-ai
-    - theme: alt
-      text: GitHub
-      link: https://github.com/XIYO/replica-template-01
-
+      link: /overview/what-is-ai-agent
 features:
   - title: 개요
-    details: 인공지능이란 무엇인가?, 인공지능의 사회적 영향, 인공지능의 미래 동향
-  - title: 응용 분야
-    details: 인공지능과 헬스케어, 인공지능과 금융, 인공지능과 제조업
+    details: AI 에이전트의 정의, 발전 역사, 현재 기술 수준을 알아봅니다.
+  - title: 핵심 기술
+    details: LLM 기반 에이전트, 멀티모달 에이전트, 자율 에이전트 아키텍처를 분석합니다.
+  - title: 미래 전망
+    details: 기술 발전 방향, 산업별 영향, 윤리적 고려사항을 살펴봅니다.
 ---
